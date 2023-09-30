@@ -1,0 +1,64 @@
+.app-container {
+  background-color: #202020;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.login-form-container {
+  background-color: #2c364c;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+.website-logo {
+  width: 200px;
+  margin-bottom: 25px;
+}
+.userLogin-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.userInput {
+  flex-grow: 1;
+  margin: 5px;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Lato';
+  font-size: 16px;
+  outline: none;
+  color: #f8fafc;
+}
+.labels {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+.submitButton {
+  background-color: #4f46e5;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  padding: 12px 0px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 15px 0px;
+  border: 0;
+  cursor: pointer;
+}
+.errorMessage {
+  line-height: 0;
+  color: #ff0b37;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 16px;
+}

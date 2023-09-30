@@ -1,0 +1,16 @@
+.similarJobs-descriptionContainer {
+  display: flex;
+  flex-direction: column;
+}
+.similarJobs {
+  background-color: #202020;
+  padding: 25px;
+  border-radius: 10px;
+  width: 30%;
+}
+@media (max-width: 768px) {
+  .similarJobs {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}

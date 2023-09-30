@@ -1,0 +1,141 @@
+.lg-jobs-container {
+  width: 100%;
+  padding: 25px;
+  background-color: #121212;
+  min-height: 100vh;
+}
+@media (min-width: 768px) {
+  .lg-jobs-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.section1 {
+  width: 20%;
+}
+@media (max-width: 768px) {
+  .section1 {
+    width: 100%;
+  }
+}
+.section2 {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+@media (max-width: 768px) {
+  .section2 {
+    width: 100%;
+  }
+}
+.profile-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hr-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #cbd5e1;
+  width: 100%;
+}
+.filtersHeading {
+  color: #ffffff;
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.unorderedList {
+  list-style-type: none;
+  padding-left: 0;
+}
+.list {
+  line-height: 2;
+}
+.labelNames {
+  color: #cbd5e1;
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.retryButton {
+  background-color: #4f46e5;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px;
+  border: 0;
+  width: 90px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.search-Container {
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 320px;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .sm-search-container {
+    display: none;
+  }
+}
+.lg-search-container {
+  align-self: flex-start;
+}
+@media (max-width: 768px) {
+  .lg-search-container {
+    display: none;
+  }
+}
+
+.searchBar {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #4f46e5;
+  padding: 10px;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+}
+.searchButton {
+  background-color: #202020;
+  border: 0px;
+  width: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+.search-icon {
+  color: #cbd5e1;
+}
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.failureView {
+  width: 80%;
+}
+.failure-title {
+  color: #cbd5e1;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.failure-subTitle {
+  color: #cbd5e1;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+}
